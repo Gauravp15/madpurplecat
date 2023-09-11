@@ -7,7 +7,7 @@ import { Ticker } from "./Ticker";
 export const SelectedWork = () => {
 
     return (
-        <section className="selected-work-wrapper">
+        <section className="selected-work-wrapper" id="work">
             <ContentContainer>
             {
                 workDetails.map((item, idx) => {
@@ -30,7 +30,7 @@ export const SelectedWork = () => {
             }
             <ElongatedBtn btnText="see all projects" btnLink="" />
             </ContentContainer>
-            <div className="client-wrapper">
+            <div className="client-wrapper" id="clients">
                 <div className="client-banner">
                     <img src="images/client-banner.png" alt="Client banner" />
                 </div>

@@ -14,13 +14,13 @@ export const Footer = () => {
                             <a href="https://www.instagram.com/madpurplecat/" target="_blank">Instagram</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">Facebook</a>
+                            <a href="https://www.facebook.com/bhoomi.shah.31" target="_blank">Facebook</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/bhoomi-shah-40242051/" target="_blank">LinkedIn</a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">Behance</a>
+                            <a href="https://www.behance.net/madpurplecat" target="_blank">Behance</a>
                         </li>
                     </ul>
                 </div>

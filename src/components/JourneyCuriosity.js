@@ -5,7 +5,7 @@ import { Ticker } from "./Ticker";
 
 export const JourneyCuriosity = () => {
     return (
-        <section className="journey-curiosity">
+        <section className="journey-curiosity" id="about">
             <ContentContainer>
                 <h2 className="journey-title"><span className="journey-title-text">A journey of curiosity and explorations</span></h2>
                 <div className="journey-content-wrapper">
@@ -53,7 +53,7 @@ export const JourneyCuriosity = () => {
                         </div>
                     </div>
                 </div>
-                <ElongatedBtn btnText="download my resume" btnLink="" />
+                <ElongatedBtn btnText="download my resume" btnLink="../bhoomi-shah-resume.pdf" />
             </ContentContainer>
             <Ticker>
                 <ul className="ticker-list">

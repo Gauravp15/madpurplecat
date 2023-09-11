@@ -5,6 +5,12 @@ export const Header = () => {
 
     const [isNavOpen, toggleNavMenu] = useState(false);
 
+    const takeToTarget = (id) => {
+        toggleNavMenu(false);
+        let el = document.querySelector(id);
+        el.scrollIntoView({ behavior: "smooth", inline: "nearest" });
+    }
+
     return (
         <header className="header">
             <div className="meow-wrapper" onClick={() => toggleNavMenu(true)}>
@@ -15,20 +21,20 @@ export const Header = () => {
                 <div className="nav-menu-wrapper">
                     <ul className="nav-menu-links">
                         <li>
-                            <a href="#">Work</a>
+                            <a href="#work" onClick={e => {e.preventDefault();takeToTarget("#work")}}>Work</a>
                         </li>
                         <li>
-                            <a href="#">Clients</a>
+                            <a href="#clients" onClick={e => {e.preventDefault(); takeToTarget("#clients")}}>Clients</a>
                         </li>
                         <br />
                         <li>
-                            <a href="#">About</a>
+                            <a href="#about" onClick={e => {e.preventDefault();takeToTarget("#about")}}>About</a>
                         </li>
                         <li>
-                            <a href="#">Testimonials</a>
+                            <a href="#" onClick={e => {e.preventDefault(); takeToTarget(false)}}>Testimonials</a>
                         </li>
                     </ul>
-                    <ElongatedBtn btnText="Download my resume" btnLink="" />
+                    <ElongatedBtn btnText="Download my resume" btnLink="../bhoomi-shah-resume.pdf" />
                     <div className="lower-nav-wrapper">
                         <a className="highlight-email" href="mailto:meow@madpurplecat.com">meow@madpurplecat.com</a>
                         <div className="footer-wrapper">
