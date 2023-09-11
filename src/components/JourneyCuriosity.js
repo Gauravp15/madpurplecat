@@ -11,7 +11,7 @@ export const JourneyCuriosity = () => {
                 <div className="journey-content-wrapper">
                     <div className="journey-content-left">
                         <div className="journey-image">
-                            <img src="../images/bhoomishah.jpg" alt="Bhoomi Shah" />
+                            <img src="images/bhoomishah.jpg" alt="Bhoomi Shah" />
                         </div>
                     </div>
                     <div className="journey-content-right">

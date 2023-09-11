@@ -6,7 +6,7 @@ export const workDetails = [
         "description": "Introducing thoughtful experiences to inspire handcrafted living that goes beyond mundane, found at the intersection of form and function.",
         "link": "https://www.behance.net/gallery/165094489/Ellementry-A-case-study-of-an-e-commerce-experience",
         "linkText": "View Case Study",
-        "imgLink": "../images/ellementry.jpg"
+        "imgLink": "images/ellementry.jpg"
     },
     {
         "categories": "UX + Curriculum Strategy + Design Supervision",
@@ -15,7 +15,7 @@ export const workDetails = [
         "description": "A learning platform for reshaping gender attitudes in adolescents",
         "link": "https://www.behance.net/gallery/165993481/Taaron-Ki-Toli-A-UX-case-study-for-gender-equality",
         "linkText": "View Project",
-        "imgLink": "../images/taaronkitoli.jpg"
+        "imgLink": "images/taaronkitoli.jpg"
     },
     {
         "categories": "UI/UX + Content Strategy + Illustration",
@@ -24,7 +24,7 @@ export const workDetails = [
         "description": "Ancient Wisdom, Modern Relevance - A Journey of Wellness Innovation",
         "link": "https://www.behance.net/gallery/174255627/SINCE-Holistic-wellness-platform-e-commerce",
         "linkText": "View Project",
-        "imgLink": "../images/since.jpg"
+        "imgLink": "images/since.jpg"
     },
     {
         "categories": "UX + Design + Fashion Waste Campaign",
@@ -33,7 +33,7 @@ export const workDetails = [
         "description": "Threads of Transformation: How ReThinkActCreate’s platform built a circular fashion community during COVID",
         "link": "https://www.behance.net/gallery/178986293/ReThink-Fashion-Waste-Website-A-UX-case-study",
         "linkText": "View Project",
-        "imgLink": "../images/rethink.jpg"
+        "imgLink": "images/rethink.jpg"
     },
     {
         "categories": "UX + Design + Economic Data & Research Forum",
@@ -42,7 +42,7 @@ export const workDetails = [
         "description": "Solution and Research Hub for the great problems and age-defining Challenges",
         "link": "https://xkdr.org/",
         "linkText": "View Project",
-        "imgLink": "../images/xkdr.jpg"
+        "imgLink": "images/xkdr.jpg"
     },
     {
         "categories": "UX + Design & Development Supervision",
@@ -51,6 +51,6 @@ export const workDetails = [
         "description": "Strengthening samaaj, sarkaar and bazaar",
         "link": "https://rohininilekaniphilanthropies.org/",
         "linkText": "View Project",
-        "imgLink": "../images/rnp.jpg"
+        "imgLink": "images/rnp.jpg"
     }
 ]
