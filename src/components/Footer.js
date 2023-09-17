@@ -6,8 +6,9 @@ export const Footer = () => {
         <section className="footer">
             <ContentContainer>
                 <div className="footer-wrapper">
+                    <p className="mob-name mob-follow-me">Follow me on</p>
                     <ul className="footer-links">
-                        <li className="follow-me">
+                        <li className="follow-me desk-name">
                             <p>Follow me on</p>
                         </li>
                         <li>
@@ -24,6 +25,7 @@ export const Footer = () => {
                         </li>
                     </ul>
                 </div>
+                <p className="bottom-line">&copy;{new Date().getFullYear()} MadPurpleCat. All rights reserved.</p>
             </ContentContainer>
         </section>
     )

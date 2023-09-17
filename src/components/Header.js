@@ -31,15 +31,16 @@ export const Header = () => {
                             <a href="#about" onClick={e => {e.preventDefault();takeToTarget("#about")}}>About</a>
                         </li>
                         <li>
-                            <a href="#" onClick={e => {e.preventDefault(); takeToTarget(false)}}>Testimonials</a>
+                            <a href="#testimonials" onClick={e => {e.preventDefault(); takeToTarget("#testimonials")}}>Testimonials</a>
                         </li>
                     </ul>
                     <ElongatedBtn btnText="Download my resume" btnLink="../bhoomi-shah-resume.pdf" />
                     <div className="lower-nav-wrapper">
                         <a className="highlight-email" href="mailto:meow@madpurplecat.com">meow@madpurplecat.com</a>
                         <div className="footer-wrapper">
+                            <p className="mob-name mob-follow-me">Follow me on</p>
                             <ul className="footer-links">
-                                <li className="follow-me">
+                                <li className="follow-me desk-name">
                                     <p>Follow me on</p>
                                 </li>
                                 <li>

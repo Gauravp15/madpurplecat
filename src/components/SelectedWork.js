@@ -22,18 +22,19 @@ export const SelectedWork = () => {
                                 </div>
                             </div>
                             <div className="selected-work-block-right">
-                                <img src={item.imgLink} alt={item.title} />
+                                {/* <img src={item.imgLink} alt={item.title} /> */}
+                                <video src={item.imgLink} autoPlay loop muted></video>
                             </div>
                         </div>
                     )
                 })
             }
-            <ElongatedBtn btnText="see all projects" btnLink="" />
+            <ElongatedBtn btnText="See all projects" btnLink="https://www.behance.net/madpurplecat" />
             </ContentContainer>
             <div className="client-wrapper" id="clients">
-                <div className="client-banner">
+                {/* <div className="client-banner">
                     <img src="images/client-banner.png" alt="Client banner" />
-                </div>
+                </div> */}
                 <Ticker type="client">
                     <ul className="ticker-list clients-list">
                         <li>

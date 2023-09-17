@@ -14,16 +14,21 @@ export const Masthead = () => {
                         <div className="masthead-content-wrapper">
                             <div className="masthead-gif-wrapper">
                                 <div className="masthead-gif">
+                                    <div className="masthead-gif-overlay"></div>
                                     <img src="images/masthead2.gif" alt="Digital Experience" />
                                 </div>
                                 <div className="masthead-content masthead-text-wrapper">
+                                    <div className="main-cat-gif">
+                                        <img src="images/main.gif" alt="Main cat" />
+                                    </div>
+                                    <p className="masthead-content mob-name">Hi, I am Bhoomi Shah</p>
                                     <span className="masthead-text shift-right">I craft digital</span>
                                     <span className="masthead-text">experiences and</span>
                                     <span className="masthead-text shift-right">design killer</span> 
                                     <span className="masthead-text">interfaces</span>
                                     <ul className="masthead-list">
                                         <li>
-                                            <p className="masthead-small-content">UX designer BASED OUT OF MUMBAI, <br /> India <span><img src="images/indiaflag.svg" alt="India Flag" /></span></p>
+                                            <p className="masthead-small-content">UX designer from MUMBAI, <br /> India <span><img src="images/indiaflag.svg" alt="India Flag" /></span></p>
                                         </li>
                                         <li>
                                             <p className="masthead-small-content">Passionate about social impact and behavioural science</p>

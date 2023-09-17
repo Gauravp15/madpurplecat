@@ -9,9 +9,11 @@ export const JourneyCuriosity = () => {
             <ContentContainer>
                 <h2 className="journey-title"><span className="journey-title-text">A journey of curiosity and explorations</span></h2>
                 <div className="journey-content-wrapper">
-                    <div className="journey-content-left">
+                    <div className="journey-content-left">                        
                         <div className="journey-image">
-                            <img src="images/bhoomishah.jpg" alt="Bhoomi Shah" />
+                            <div className="journey-overlay"></div>
+                            {/* <img src="images/bhoomishah.jpg" alt="Bhoomi Shah" /> */}
+                            <video src="videos/bio.mp4" autoPlay loop muted></video>
                         </div>
                     </div>
                     <div className="journey-content-right">
@@ -27,33 +29,33 @@ export const JourneyCuriosity = () => {
                 <div className="skillset-wrapper">
                     <div className="skillset-block">
                         <div className="skillset-img">
-                            <img src="images/skillset1.png" alt="Experience & Interface Design" />
+                            <img src="images/cat1.gif" alt="Cat frame" />
                         </div>
                         <div className="skillset-content">
                             <h3 className="skillset-title">Values</h3>
-                            <p className="skillset-description">Altruism + Empathy + Giving + Play-fullness + Collaboration + Courage + Freedom</p>
+                            <p className="skillset-description">Altruism - Empathy - Giving - Playfulness - Collaboration - Courage - Freedom</p>
                         </div>
                     </div>
                     <div className="skillset-block">
                         <div className="skillset-img">
-                            <img src="images/skillset2.png" alt="Brand Management" />
+                            <img src="images/cat2.gif" alt="Cat frame" />
                         </div>
                         <div className="skillset-content">
                             <h3 className="skillset-title">Skillsets</h3>
-                            <p className="skillset-description">Strategic thinking + Storytelling + Visual Design + Interaction design + Information architecture + Wire-framing + Research</p>
+                            <p className="skillset-description">Strategic Thinking - Storytelling - Visual Design - Interaction Design - Information Architecture - Wire-Framing - Research</p>
                         </div>
                     </div>
                     <div className="skillset-block">
                         <div className="skillset-img">
-                            <img src="images/skillset3.png" alt="Art Direction" />
+                            <img src="images/cat3.gif" alt="Cat frame" />
                         </div>
                         <div className="skillset-content">
                             <h3 className="skillset-title">Passion</h3>
-                            <p className="skillset-description">Social Impact + Behavioural science + Organic Farming + Craft therapy + Cooking + Home decor</p>
+                            <p className="skillset-description">Social Impact - Behavioural Science - Organic Farming - Craft Therapy - Cooking - Home Decor</p>
                         </div>
                     </div>
                 </div>
-                <ElongatedBtn btnText="download my resume" btnLink="../bhoomi-shah-resume.pdf" />
+                <ElongatedBtn btnText="Download my resume" btnLink="../bhoomi-shah-resume.pdf" />
             </ContentContainer>
             <Ticker>
                 <ul className="ticker-list">

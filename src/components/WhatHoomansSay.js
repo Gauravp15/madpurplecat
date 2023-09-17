@@ -1,6 +1,6 @@
 import React from "react";
 import { ContentContainer } from "./ContentContainer";
-/* import { TestimonialSlider } from "./TestimonialSlider"; */
+import { TestimonialSlider } from "./TestimonialSlider";
 
 export const WhatHoomansSay = () => {
     return (
@@ -28,9 +28,9 @@ export const WhatHoomansSay = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="hoomans-testimonial-slider">
-                    {/* <h2 className="journey-title"><span>What my hoomans</span><br /><span className="journey-title-text">say about me</span></h2>
-                    <TestimonialSlider /> */}
+                <div className="hoomans-testimonial-slider" id="testimonials">
+                    <h2 className="journey-title"><span>all things hoomans</span><br /><span className="journey-title-text">say about me</span></h2>
+                    <TestimonialSlider />
                     <p className="hoomans-bottom-text">now that you know me, it’s time to start making something amazing together. write to me!</p>
                     <a className="highlight-email" href="mailto:meow@madpurplecat.com">meow@madpurplecat.com</a>
                 </div>
